@@ -6028,7 +6028,7 @@ body.is-anime .l-header__btn {
     /* lrf */
   .wrapper01 {
     padding-bottom: 200px;
-    background: url(./image/ca01small.png) repeat center;
+    background: url(/image/ca01small.png) repeat center;
     
 
     overflow: hidden;
@@ -6325,7 +6325,7 @@ body.is-anime .l-header__btn {
 
     overflow: hidden;
     width: 100%;
-    background: url(./image/wrapper02.png) no-repeat right ;
+    background: url(/image/wrapper02.png) no-repeat right ;
       
     position: relative;
   }
@@ -6337,7 +6337,7 @@ body.is-anime .l-header__btn {
 
         overflow: hidden;
         width: 100%;
-        background: url(./image/wrapper02.png) repeat  center   100%;
+        background: url(/image/wrapper02.png) repeat  center   100%;
 ;
 
         position: relative;
@@ -6699,7 +6699,7 @@ body.is-anime .l-header__btn {
               margin-top: 40px;
               width: 50%; } }
         .pageIndex .serviceArea .serviceWrap .serviceList .centerCaptureArea {
-          background: url(/LOGO-FULL/logo-suzulogo.svg) no-repeat center;
+          background: url(./LOGO-FULL/logo-suzulogo.svg) no-repeat center;
           background-size: 80% auto;
           box-sizing: border-box;
           grid-row: span 2;
@@ -6780,10 +6780,10 @@ body.is-anime .l-header__btn {
               -webkit-animation-fill-mode: both;
               -moz-animation-fill-mode: both;
               animation-fill-mode: both;
-              background: url(/image/suzulo-long.png) no-repeat top center;
+              background: url(./image/suzulo-long.png) no-repeat top center;
               background-size: 100% auto; }
             .pageIndex .serviceArea .serviceWrap .serviceList .centerCaptureArea.suzulo:before {
-              background-image: url(/image/suzulo-long.png); }
+              background-image: url(./image/suzulo-long.png); }
           .pageIndex .serviceArea .serviceWrap .serviceList .centerCaptureArea.suzu {
             -webkit-animation: animationBlur 0.3s 0s ease-in 1 normal forwards;
             -moz-animation: animationBlur 0.3s 0s ease-in 1 normal forwards;
@@ -6798,10 +6798,10 @@ body.is-anime .l-header__btn {
               -webkit-animation-fill-mode: both;
               -moz-animation-fill-mode: both;
               animation-fill-mode: both;
-              background: url(/image/suzuru-long-kojichu.png) no-repeat top center;
+              background: url(./image/suzuru-long-kojichu.png) no-repeat top center;
               background-size: 100% auto; }
             .pageIndex .serviceArea .serviceWrap .serviceList .centerCaptureArea.suzu:before {
-              background-image: url(/image/suzuru-long-kojichu.png); }
+              background-image: url(./image/suzuru-long-kojichu.png); }
           
       .pageIndex .serviceArea .serviceWrap .logoArea {
         -webkit-animation: animationOpacity 1.5s 0s ease-in-out 1 normal forwards;
@@ -6830,7 +6830,7 @@ body.is-anime .l-header__btn {
           -moz-animation-fill-mode: both;
           animation-fill-mode: both;
           opacity: 0;
-          background-image: url(/LOGO-FULL/logo-suzulogoFULL.svg); }
+          background-image: url(./LOGO-FULL/logo-suzulogoFULL.svg); }
         .pageIndex .serviceArea .serviceWrap .logoArea.suzu {
           -webkit-animation: animationBlur 0.3s 0s ease-in 1 normal forwards;
           -moz-animation: animationBlur 0.3s 0s ease-in 1 normal forwards;
@@ -6839,7 +6839,7 @@ body.is-anime .l-header__btn {
           -moz-animation-fill-mode: both;
           animation-fill-mode: both;
           opacity: 0;
-          background-image: url(/LOGO-FULL/logo-suzuFULL.svg); }
+          background-image: url(./LOGO-FULL/logo-suzuFULL.svg); }
 
 
 .content01 {
@@ -7000,7 +7000,7 @@ margin-top: -200px;
     margin-top: 50px;
     overflow: hidden;
     width: 100%;
-    background: url(./image/SUZULO.png) no-repeat right ;
+    background: url(/image/SUZULO.png) no-repeat right ;
     position: relative;
     background-attachment: fixed;
     background-size: cover;
@@ -7014,7 +7014,7 @@ margin-top: -200px;
 
         overflow: hidden;
         width: 100%;
-        background: url(./image/SUZULOCUT.png) repeat  center   100%;
+        background: url(/image/SUZULOCUT.png) repeat  center   100%;
         background-attachment: fixed;
         background-size: cover;
         position: relative;
