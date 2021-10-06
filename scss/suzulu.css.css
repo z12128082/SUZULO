@@ -7288,8 +7288,6 @@ position: relative;
          .aboutpagetextEN {
             font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
             font-size: 1rem;
-
-
           font-weight: bold;
  } }
        
@@ -7337,3 +7335,197 @@ position: relative;
       height: 40vh;
     }
   }
+
+  .gallaryspace {
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    position: relative;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+     .gallaryspace {
+      margin-top: 150px;
+
+      background-attachment: fixed;
+    }
+  }
+  @media screen and (max-width: 767px) {
+      .gallaryspace {
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      background-attachment: fixed;
+      
+    }
+  }
+
+  .gallaryspaceImage {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    height: 70vh;
+}
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+     .gallaryspaceImage {
+      margin-top: 150px;
+      
+      height: 80vh;
+    }
+  }
+  @media screen and (max-width: 767px) {
+      .gallaryspaceImage {
+        background-size: cover;
+        background-attachment: none;
+
+      margin-top: 200px;
+      height: 70vh;
+    }
+}
+
+.gallaryspaceText  { 
+    position: absolute;
+    margin-left: 1.4em;
+    margin-top: -12em;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 2rem;
+        font-weight: bold;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    color: #3a3a3a;
+    mix-blend-mode: difference;
+}
+@media screen and (max-width: 767px) {
+.gallaryspaceText {
+    margin-top: -13.5em;
+    margin-left: 0.2em;
+    padding-top: 0px;
+    font-size: 2rem;
+
+}
+} 
+.gallaryspaceTextsmall { 
+    position: absolute;
+    margin-left: 2.2em;
+    margin-top: -8em;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 3rem;
+        font-weight: bold;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    color: #3a3a3a;
+    mix-blend-mode: difference;
+}
+@media screen and (max-width: 767px) {
+.gallaryspaceTextsmall {
+    margin-top: -8em;
+    padding-top: 0px;
+    margin-left: 0.2em;
+    font-size: 2rem;
+
+}
+} 
+.gallaryspaceTitle { 
+    position: relative;
+    margin-left: 1em;
+    margin-top: 2em;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 3rem;
+        font-weight: bold;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    color: #3a3a3a;
+    mix-blend-mode: difference;
+}
+@media screen and (max-width: 767px) {
+.gallaryspaceTitle {
+    padding-top: 0px;
+    margin-left: 0.2em;
+    font-size: 1.8rem;
+
+}
+} 
+
+.gallaryspaceTitlesmalljp { 
+    position: absolute;
+    letter-spacing : 10pt;
+    margin-left: 8em;
+    margin-right: 5em;
+    line-height: 100pt;
+    margin-top: -14em;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 2rem;
+        font-weight: bold;
+    color: #3a3a3a;
+    mix-blend-mode: difference;
+}
+@media screen and (max-width: 767px) {
+.gallaryspaceTitlesmalljp {
+    padding-top: 0px;
+    margin-top: -15em;
+    margin-left: 3em;
+    line-height: 40pt;
+    margin-right: 2em;
+    letter-spacing : 6pt;
+    font-size: 1.5rem;
+
+}
+} 
+
+.gallaryspaceTitlesmallen { 
+    position: relative;
+    letter-spacing : 10pt;
+    margin-left: 8em;
+    margin-right: 5em;
+    line-height: 100pt;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 2rem;
+        font-weight: bold;
+    color: #3a3a3a;
+    color: #7e7e7e;
+}
+@media screen and (max-width: 767px) {
+.gallaryspaceTitlesmallen {
+    padding-top: 0px;
+    margin-left: 3em;
+    line-height: 40pt;
+    margin-right: 2em;
+    letter-spacing : 4pt;
+    font-size: 1.5rem;
+
+    font-size: 1.5rem;
+
+}
+} 
+
+.gallaryspaceTitlesmallspace { 
+    position: relative;
+
+} 
+
+.gallaryspacesmall { 
+    position: relative;
+    letter-spacing : 10pt;
+    margin-left: 8em;
+    margin-right: 5em;
+    padding-bottom: 1rem;
+    line-height: 100pt;
+    font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+        font-size: 2rem;
+        font-weight: bold;
+    color: #3a3a3a;
+    color: #7e7e7e;
+}
+@media screen and (max-width: 767px) {
+.gallaryspacesmall {
+    padding-top: 1rem;
+    margin-left: 3em;
+    line-height: 40pt;
+    margin-right: 2em;
+    letter-spacing : 6pt;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+
+}
+} 
