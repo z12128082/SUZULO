@@ -4450,10 +4450,23 @@ button {
     width: 100px;
 }
 
+
+
 .pageIndex .mvArea .txtArea .detailArea .copyArea {
     margin-left: 40px;
-}
+    animation: en 3s ;
 
+}
+@keyframes en {
+    0% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+
+    }
+}
 @media screen and (max-width: 1126px) {
     .pageIndex .mvArea .txtArea .detailArea .copyArea {
         margin-left: 0px;
@@ -4473,6 +4486,7 @@ button {
     font-weight: bold;
     line-height: 1.5;
     margin-top: 0.5em;
+
 }
 
 @media screen and (max-width: 1126px) {
@@ -7532,3 +7546,26 @@ position: relative;
 
 }
 } 
+
+.loading{
+    z-index: 999;
+    background: url(../LOGO-FULL/bgTexture.webp)  ;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+
+}
+
+.loadimg{
+position: absolute;
+width: 50;
+top: 40%;
+left: 43%;
+}
+@media screen and (max-width: 767px) {
+    .loadimg {
+        top: 40%;
+        left: 27%;
+    
+    }
+    } 

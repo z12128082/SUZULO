@@ -1,4 +1,8 @@
 
+$(window).on("load", function() { 
+    $(".loading").delay(1000); 
+    $(".loading").fadeOut(500); 
+  });
 
 (function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
