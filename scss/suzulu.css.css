@@ -4463,8 +4463,7 @@ button {
 
 @media screen and (max-width: 750px) {
     .pageIndex .mvArea .txtArea .detailArea .copyArea {
-        margin-top: 0em;
-        width: 100%;
+        padding-top: 0em;
     }
 }
 
@@ -4478,17 +4477,13 @@ button {
 
 @media screen and (max-width: 1126px) {
     .pageIndex .mvArea .txtArea .detailArea .copyArea .copyEn {
-        font-size: 0rem;
         margin-top: 0.5em;
     }
 }
 
 @media screen and (max-width: 750px) {
     .pageIndex .mvArea .txtArea .detailArea .copyArea .copyEn {
-        font-size: 1.2rem;
-        
-        margin-bottom: 80pt;
-        padding-bottom: 0pt;
+        font-size: 1.4rem;
     }
 }
 
@@ -7486,9 +7481,15 @@ position: relative;
     color: #3a3a3a;
     color: #7e7e7e;
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .gallaryspaceTitlesmallen{
+        padding-top: 50px;
+
+   }
+ }
 @media screen and (max-width: 767px) {
 .gallaryspaceTitlesmallen {
-    padding-top: 10px;
+    padding-top: 60px;
     margin-left: 3em;
     line-height: 40pt;
     margin-right: 2em;
