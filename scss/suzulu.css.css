@@ -7477,6 +7477,7 @@ position: relative;
     position: relative;
     letter-spacing : 10pt;
     margin-left: 8em;
+    padding-top: 20px;
     margin-right: 5em;
     line-height: 100pt;
     font-family: Ryumin Medium KL, "リュウミン M-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
@@ -7487,7 +7488,7 @@ position: relative;
 }
 @media screen and (max-width: 767px) {
 .gallaryspaceTitlesmallen {
-    padding-top: 0px;
+    padding-top: 10px;
     margin-left: 3em;
     line-height: 40pt;
     margin-right: 2em;
