@@ -7002,7 +7002,6 @@ margin-top: -200px;
     width: 100%;
     background: url(../image/SUZULO.png) no-repeat right ;
     position: relative;
-    background-attachment: fixed;
     background-size: cover;
   }
   @media screen and (max-width: 767px) {
@@ -7359,7 +7358,6 @@ position: relative;
 
   .gallaryspaceImage {
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     position: relative;
     height: 70vh;
